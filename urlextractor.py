@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 # Set the URL of the SharePoint web page
-sharepoint_url = "https://your-sharepoint-url-here.com"
+sharepoint_url = str(input("Enter your sharepoit url: "))
 
 # Initialize the web driver (make sure to specify the path to your WebDriver)
 driver = webdriver.Chrome(executable_path='path/to/chromedriver')
