@@ -1,7 +1,9 @@
 import subprocess
 
-url=str(input("Enter that damned URl: "))
-filename=str(input("Enter Name for this mf: "))
-magic = "ffmpeg -i " + '\"' + url + '\"' + " -codec copy " + filename +".mp4"  
-print(magic)
-subprocess.run(magic, shell=True)
+url = input("Enter the URL: ")
+filename = input("Enter the filename: ")
+
+command = f'ffmpeg -i "{url}" -codec copy "{filename}.mp4"'
+print(command)
+
+subprocess.run(command, shell=True)
