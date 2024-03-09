@@ -9,11 +9,16 @@
 <p>03. open dev tools in the browser and go to the Network tab.</p>
 <p>04. In the network tab, search the following command using the search area.
 
-videomanifest?provider</p>
-<p>Then reload the webpage again.</p>
-![image](https://github.com/virajray/OneDrive-video-Downloader/assets/36956604/daace7ce-f39f-43f7-8bad-d0364b939afd)
+<code>videomanifest?provider</code></p>
+![image](https://github.com/virajray/OneDrive-video-Downloader/assets/36956604/1444d28f-e3a0-4ada-9e40-96c13a4ddeff)
 
-<p>click on the highlighted area and you can see the right panel is viewing some contents.</p>
+
+<p>Then reload the webpage again.</p>
+
+<p>click on the highlighted area and you can see the right panel is viewing some contents like this.</p>
+![image](https://github.com/virajray/OneDrive-video-Downloader/assets/36956604/41aa0d25-d4d7-46f4-8946-10525c211ea2)
+
+
 
 
 
