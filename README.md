@@ -26,7 +26,7 @@
 <p>06. Now you can find the URL under Request URL and Copy that entire URL.</p>
 
 <h2>Setting up</h2>
-<p>clone the repo into your machine and run <a href="requiredpkgs.sh">requiredpkgs.sh</a> download all the required packages and files required</p>
+<p>clone the repo into your machine and run <a href="requiredpkgs.sh">requiredpkgs.sh</a> download all the required packages and files</p>
 
 <h2>Using software</h2>
 <p>01. Goto cloned directory and run <code>app.py</code></p>
@@ -34,11 +34,11 @@
 
 ![image](https://github.com/virajray/OneDrive-video-Downloader/assets/36956604/0aea34c5-7506-4db2-9d05-dc18e38a77e8)
 
-<p>03. Enter file name as you wish to save</p>
+<p>03. Enter the file name as you wish to save</p>
 
 ![image](https://github.com/virajray/OneDrive-video-Downloader/assets/36956604/e36457b7-925d-483e-92ed-1c1dae0322a5)
 
-<h4 style="color:green;">Your file will start to download now!</h4>
+<h4>Your file will start to download now!🎉✨</h4>
 
 <h2>To run this software you need to have the following packages installed on your computer</h2>
 (these installations are automated in <a href="requiredpkgs.sh">requiredpkgs.sh</a> for your easy ness. However, if you face any difficulty with it, you can download it manually from the links below)
