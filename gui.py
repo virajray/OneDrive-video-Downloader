@@ -1,5 +1,6 @@
 import subprocess
 from pathlib import Path
+from tkinter import filedialog
 
 # from tkinter import *
 # Explicit imports to satisfy Flake8
@@ -13,6 +14,13 @@ ASSETS_PATH = OUTPUT_PATH / Path(r"assets\frame0")
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
+# Define a function to select the save directory
+def select_save_dir():
+        save_dir = filedialog.askdirectory(title="Select Save Directory")
+        print(save_dir)
+        return save_dir
+
+directory=select_save_dir()
 
 def Main():
 
@@ -21,11 +29,10 @@ def Main():
 
     filename = filename_entry.get()
 
-    command = f'ffmpeg -i "{url}" -codec copy "{filename}.mp4"'
-    subprocess.run(command, shell=True)
+    command = f'ffmpeg -i "{url}" -codec copy "{directory}/{filename}.mp4"'
+    print(command)
+    #subprocess.run(command, shell=True)
 
-
-    
 
 window = Tk()
 
@@ -141,7 +148,7 @@ button_2 = Button(
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
-    command=lambda: print("button_2 clicked"),
+    command=select_save_dir,
     relief="flat"
 )
 button_2.place(
