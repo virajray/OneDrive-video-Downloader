@@ -13,13 +13,18 @@ ASSETS_PATH = OUTPUT_PATH / Path(r"assets\frame0")
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
 
-#setting input boxes values assigned to variables
-def grab_URL_N_FILENAME():
-    link = link_entry.get()
-    print(link)
+
+def Main():
+
+    #setting input boxes values assigned to variables
+    url = url_entry.get()
 
     filename = filename_entry.get()
-    print(filename)
+
+    command = f'ffmpeg -i "{url}" -codec copy "{filename}.mp4"'
+    subprocess.run(command, shell=True)
+
+
     
 
 window = Tk()
@@ -46,13 +51,13 @@ entry_bg_1 = canvas.create_image(
     301.0,
     image=entry_image_1
 )
-link_entry = Entry(
+url_entry = Entry(
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
     highlightthickness=0
 )
-link_entry.place(
+url_entry.place(
     x=158.0,
     y=280.0,
     width=390.0,
@@ -112,7 +117,7 @@ button_1 = Button(
     image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
-    command=grab_URL_N_FILENAME,
+    command=Main,
     relief="flat"
 )
 button_1.place(
@@ -146,4 +151,10 @@ button_2.place(
     height=39.75
 )
 window.resizable(False, False)
+
+#Set the icon of tkinter window
+window.iconbitmap(r"assets\cloud.ico")
+
+window.title("OneDrive video Downloader")
+
 window.mainloop()
