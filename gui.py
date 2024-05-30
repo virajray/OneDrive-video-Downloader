@@ -16,7 +16,7 @@ def relative_to_assets(path: str) -> Path:
 
 # Define a function to select the save directory
 def select_save_dir():
-        save_dir = filedialog.askdirectory(title="Select Save Directory")
+        save_dir = filedialog.askdirectory(title="Select Directory to Save your file ")
         return save_dir
 
 directory=select_save_dir()
