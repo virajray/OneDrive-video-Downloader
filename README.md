@@ -4,7 +4,6 @@
 
 <h1>New GUI Version🎉</h1>
 ![image](https://github.com/virajray/OneDrive-video-Downloader/assets/36956604/3994b854-a8d5-4b96-a28a-243c7f1cf9a0)
-
 <h2>How to Find required link</h2>
 
 
