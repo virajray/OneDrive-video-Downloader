@@ -41,7 +41,7 @@
 <h4>Your file will start to download now!🎉✨</h4>
 
 <h2>To run this software you need to have the following packages installed on your computer</h2>
-(these installations are automated in <a href="requiredpkgs.sh">requiredpkgs.sh</a> for your easy ness. However, if you face any difficulty with it, you can download it manually from the links below)
+(these installations are automated in <a href="requirements.sh">requirements.sh</a> for your easy ness. However, if you face any difficulty with it, you can download it manually from the links below)
 <ul>
 <li><a href="https://www.ffmpeg.org/download.html">FFMPEG</a></li>
 <li><a href="https://www.python.org/downloads/release/python-3120/">Python3</a></li>
