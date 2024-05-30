@@ -15,4 +15,7 @@ apt install -y python3
 # Install FFmpeg
 apt install -y ffmpeg
 
+#install tkinter
+pip install tkinter
+
 echo "Installation complete."
