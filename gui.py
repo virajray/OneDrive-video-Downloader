@@ -17,7 +17,6 @@ def relative_to_assets(path: str) -> Path:
 # Define a function to select the save directory
 def select_save_dir():
         save_dir = filedialog.askdirectory(title="Select Save Directory")
-        print(save_dir)
         return save_dir
 
 directory=select_save_dir()
@@ -30,8 +29,7 @@ def Main():
     filename = filename_entry.get()
 
     command = f'ffmpeg -i "{url}" -codec copy "{directory}/{filename}.mp4"'
-    print(command)
-    #subprocess.run(command, shell=True)
+    subprocess.run(command, shell=True)
 
 
 window = Tk()
