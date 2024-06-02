@@ -2,8 +2,6 @@
 
 <p>OneDrive-video-Downloadet is open-source Python-based software available on GitHub that you can download Onedrive videos and Microsoft Teams recordings that has no download option and are hidden to other downloaders.</p>
 
-<h1>01 Using CLI version(recommended)</h1>
-
 <h2>How to Find required link</h2>
 
 
@@ -29,6 +27,9 @@
 <p>clone the repo into your machine and run <a href="requirements.sh">requirements.sh</a> to download all the required packages and files</p>
 
 <h2>Using software</h2>
+
+<h1>01 Using CLI version(recommended)</h1>
+
 <p>01. Goto cloned directory and run <code>app.py</code></p>
 <p>02. enter the URL extracted in the previous step </p>
 
