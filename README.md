@@ -26,7 +26,7 @@
 <p>06. Now you can find the URL under Request URL and Copy that entire URL.</p>
 
 <h2>Setting up</h2>
-<p>clone the repo into your machine and run <a href="requiredpkgs.sh">requiredpkgs.sh</a> to download all the required packages and files</p>
+<p>clone the repo into your machine and run <a href="requirements.sh">requirements.sh</a> to download all the required packages and files</p>
 
 <h2>Using software</h2>
 <p>01. Goto cloned directory and run <code>app.py</code></p>
