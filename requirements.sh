@@ -12,6 +12,9 @@ apt update
 # Install Python 3
 apt install -y python3
 
+#installing pip
+apt-get install python3-pip
+
 # Install FFmpeg
 apt install -y ffmpeg
 
